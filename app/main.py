@@ -21,3 +21,4 @@ if __name__ == '__main__':
     print('Data Transformed ⛏️')
     save_to_excel(data_frame, 'data/output', 'output')
     print('File Saved 💾')
+    print('Pipeline Completed 🚀')
