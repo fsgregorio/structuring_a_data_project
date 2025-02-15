@@ -18,6 +18,7 @@ mkdocstrings-python = "^1.15.0"
 mkdocs-material = "^9.6.4"
 pymdown-extensions = "^10.14.3"
 mkdocs-bootstrap386 = "^0.0.2"
+fastapi = "^0.115.8"
 
 
 [build-system]
