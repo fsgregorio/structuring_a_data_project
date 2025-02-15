@@ -1,84 +1,80 @@
-Criar Documentação de Funcionalidades
+# 📊 Structuring a Data Project
 
-ls
+This project implements a **data pipeline** that extracts and transforms **Excel files**, merging them into a single consolidated file. It processes `.xlsx` files from the `data/input` folder and saves the output in `data/output`.
 
-mkdir
+## 🚀 Installation
 
-cd
+Make sure you have [Poetry](https://python-poetry.org/docs/) installed. Then, follow these steps:
 
-pyenv install 3.11.0
+```bash
+# Clone the repository
+git clone https://github.com/fsgregorio/structuring_a_data_project.git
+cd structuring_a_data_project
 
-pyenv local 3.11.0
+# Install dependencies
+poetry install
+```
 
-poetry init
+## ▶️ How to Run the Project
 
-poetry shell
+1. Place the input files in the data/input folder.
+2. Run the pipeline using the following command:
 
-poetry add [biblioteca]
+```bash
+poetry run python app/main.py
+```
+3. The consolidated file will be saved in the data/output folder.
 
-poetry remove [biblioteca]
+## 🔍 Running Tests
 
-poetry env info
+To run automated tests using pytest, execute:
+```bash
+poetry run pytest -v
+```
 
-poetry update [biblioteca]
+## 📁 Project Structure
 
-pip show [biblioteca]
+```graphql
+.
+├── app/
+│   ├── pipeline/
+│   │   ├── extract.py  # Data extraction
+│   │   ├── transform.py  # Data transformation
+│   │   ├── load.py  # Processed data saving
+│   ├── main.py  # Main script to run the pipeline
+├── data/
+│   ├── input/  # Folder for input (.xlsx) files
+│   ├── output/  # Folder where processed files will be saved
+├── tests/  # Automated tests
+├── docs/  # Project documentation
+├── .github/workflows/  # CI/CD configuration for GitHub Actions
+├── mkdocs.yml  # MkDocs configuration for documentation
+├── pyproject.toml  # Poetry configuration
+├── README.md  # Project documentation
+```
 
-.gitignore
+## 🔧 CI/CD on GitHub
 
-gitignore totptal
+This project has CI/CD configured on GitHub Actions, ensuring that:
 
-__init__.py
+Tests are automatically executed on every push/pull request.
+Dependencies are installed correctly via Poetry.
+You can check the execution status in the Actions tab of the repository.
 
-estrutura de projeto
+## 🤝 Contribution
 
+Contributions are welcome! To contribute:
 
-ETL: extract, transform, load
-
-git ac "msg"
-
-
-git log
-
-git reset hard "commit"
-
-pytest -v
-
-pyhton folder/file.py
-
-
-isort . (ajusta blibliotecas)
-blue . (mais flexível)
-black . (mais rigido)
-pydocstyle
-
-panda -h (saber cmm da biblioteca)
-
-docstring
-
-
-mkdocs
-
-mkdocs new .
-mkdocs serve
-
-mkdocs plugins
-mkdocs themes
-
-mkdocstrings-python = "^1.7.2"
-pygments = "^2.16.1"
-mkdocs-material = "^9.4.4"
-pymdown-extensions = "^10.3"
-mkdocs-bootstrap386 = "^0.0.2
-
-mkdocs gh-deploy
-
-https://fsgregorio.github.io/structuring_a_data_project/
-
-Escrever função:
-Entradas - Saídas
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b my-feature
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add new feature"
+4. Submit a Pull Request.
 
 
-Pré-commit
+## 📩 Contact
 
-Branch test_ci
+📧 Email: fsgregorio92@gmail.com
