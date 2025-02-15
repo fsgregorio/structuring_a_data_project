@@ -7,4 +7,19 @@ poetry init
 
 .gitignore
 
+gitignore totptal
+
+
+ETL: extract, transform, load
+
+git ac "msg"
+
+
+git log
+
+git reset hard "commit"
+
+pytest -v
+
+pyhton folder/file.py
 
