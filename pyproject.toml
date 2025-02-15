@@ -13,6 +13,11 @@ pytest = "^8.3.4"
 isort = "^6.0.0"
 blue = "^0.9.1"
 pydocstyle = "^6.3.0"
+mkdocs = "^1.6.1"
+mkdocstrings-python = "^1.15.0"
+mkdocs-material = "^9.6.4"
+pymdown-extensions = "^10.14.3"
+mkdocs-bootstrap386 = "^0.0.2"
 
 
 [build-system]
