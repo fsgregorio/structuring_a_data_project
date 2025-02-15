@@ -23,3 +23,7 @@ pytest -v
 
 pyhton folder/file.py
 
+
+isort .
+blue .
+black .

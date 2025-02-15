@@ -1,9 +1,9 @@
-import os
 import glob
-
-import pandas as pd
+import os
 from typing import List
+
 import openpyxl
+import pandas as pd
 
 path = "data/input"
 
@@ -24,9 +24,3 @@ def extract_excel(path: str) -> List[pd.DataFrame]:
         data_frame_list.append(pd.read_excel(file))
 
     return data_frame_list
-    
-
-# if __name__ == "__main__":
-#     data_frame_list = extract_excel(path)
-#     print(data_frame_list)
-
