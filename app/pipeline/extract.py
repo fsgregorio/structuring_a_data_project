@@ -14,7 +14,7 @@ returns: df(DataFrame): DataFrame containing the data from the files
 """
 path = "data/input"
 
-def extract(path: str) -> List[pd.DataFrame]:
+def extract_excel(path: str) -> List[pd.DataFrame]:
     all_files = glob.glob(os.path.join(path, "*.xlsx"))
     
     data_frame_list = []
@@ -24,7 +24,7 @@ def extract(path: str) -> List[pd.DataFrame]:
     return data_frame_list
     
 
-if __name__ == "__main__":
-    data_frame_list = extract(path)
-    print(data_frame_list)
+# if __name__ == "__main__":
+#     data_frame_list = extract_excel(path)
+#     print(data_frame_list)
 
