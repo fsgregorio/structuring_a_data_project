@@ -1,4 +1,4 @@
-Steps:
+Criar Documentação de Funcionalidades
 
 ls
 
@@ -29,6 +29,8 @@ pip show [biblioteca]
 gitignore totptal
 
 __init__.py
+
+estrutura de projeto
 
 
 ETL: extract, transform, load
@@ -72,3 +74,10 @@ mkdocs-bootstrap386 = "^0.0.2
 mkdocs gh-deploy
 
 https://fsgregorio.github.io/structuring_a_data_project/
+
+Escrever função:
+Entradas - Saídas
+
+
+Pré-commit
+
