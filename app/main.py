@@ -22,4 +22,3 @@ if __name__ == '__main__':
     save_to_excel(data_frame, 'data/output', 'output')
     print('File Saved 💾')
     print('Pipeline Completed 🚀')
-    print('CI/CD Pipeline Test')
