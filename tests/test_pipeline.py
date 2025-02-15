@@ -10,3 +10,5 @@ def test_union_dataframes():
     result = transform_data(data_frame_list)
     expected = pd.DataFrame({"A": [1, 2, 5, 6], "B": [3, 4, 7, 8]})
     pd.testing.assert_frame_equal(result, expected)
+    
+# Build more tests for the other functions in the pipeline
