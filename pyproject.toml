@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "estruturando um projeto de dados"
+name = "estruturando_um_projeto_de_dados"
 version = "0.1.0"
 description = ""
 authors = ["fsgregorio <fsgregorio92@gmail.com>"]
