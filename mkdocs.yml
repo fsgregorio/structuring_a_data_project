@@ -1,1 +1,13 @@
-site_name: My Docs
+site_name: Structuring a Data Project
+repo_url: https://github.com/fsgregorio/structuring_a_data_project
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Running Tests: tests.md
+  - Project Structure: structure.md
+  - CI/CD: ci_cd.md
+  - Contribution: contribution.md
