@@ -11,51 +11,45 @@ This project implements a **data pipeline** that extracts, transforms, and conso
 ✔ CI/CD integration with GitHub Actions  
 ✔ Fully automated pipeline
 
-# 🚀 Installation
-
+## 🚀 Installation
 Make sure you have [Poetry](https://python-poetry.org/docs/) installed.
 
-## Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/fsgregorio/structuring_a_data_project.git
 cd structuring_a_data_project
 
 poetry install
-
-
+```
 ---
 
-### ▶️ **File `docs/usage.md`**
-```md
-# ▶️ How to Run the Project
+### ▶️ **How to Run the Project**
 
-## 1️⃣ Add input files
+### 1️⃣ Add input files
 Place your `.xlsx` files inside the `data/input` folder.
 
-## 2️⃣ Run the pipeline
+### 2️⃣ Run the pipeline
 Execute the following command:
 ```bash
 poetry run python app/main.py
-
+```
 
 ---
 
-### 🧪 **File `docs/tests.md`**
-```md
-# 🔍 Running Tests
+### 🔍 Running Tests
 
 To ensure everything is working properly, run the tests using `pytest`:
 
 ```bash
 poetry run pytest -v
-
+```
 Test coverage includes:
 
 Data extraction from Excel files
 Data transformation logic
 Saving and formatting of the output file
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```graphql
 .
@@ -76,7 +70,7 @@ Saving and formatting of the output file
 ├── README.md  # Project documentation
 ```
 
-# 🔧 CI/CD on GitHub
+### 🔧 CI/CD on GitHub
 
 This project has **CI/CD configured using GitHub Actions**, ensuring:
 ✔ Automatic test execution on every push/pull request  
@@ -85,7 +79,7 @@ This project has **CI/CD configured using GitHub Actions**, ensuring:
 Check the CI/CD status on the **Actions** tab of the repository.
 
 
-# 🤝 Contribution
+### 🤝 Contribution
 
 Contributions are welcome! To contribute:
 
